@@ -1,15 +1,15 @@
 # Customer Behavior Analysis Findings
 
-**1.Purchase Frequency Analysis**
+**1. Purchase Frequency Analysis**
 Customer purchasing frequency varied across the customer base. Occasional Buyers formed the largest customer segment (2,454 customers), followed by One-time Buyers (1,623 customers). The analysis also identified 925 Frequent Buyers and 876 Highly Loyal Buyers, indicating that a smaller group of customers purchased repeatedly.
 
-**2.Customer Spending Analysis**
+**2. Customer Spending Analysis**
 Customers 18102, 14646, and 14156 were among the highest revenue-generating customers. The results showed that a relatively small group of customers contributed a substantial portion of total revenue.
 
-**3.Purchase Volume Analysis**
+**3. Purchase Volume Analysis**
 Customers 14646, 13902, 13694, 18102, and 14156 purchased the highest quantities of products. Comparing these results with the spending analysis showed that customers who purchased the largest quantities were not always the highest revenue contributors.
 
-**4.Customer Recency Analysis**
+**4. Customer Recency Analysis**
 Several customers had recency values of 0 days, indicating that they made purchases on the latest transaction date available in the dataset. The analysis also showed variation in customer activity levels, with some customers purchasing recently while others had longer gaps since their last purchase.
 
 **5. RFM Customer Segmentation Analysis**
