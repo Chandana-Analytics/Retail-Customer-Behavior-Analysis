@@ -1,7 +1,6 @@
 # Data Profiling Findings
 
 Before starting the analysis, I reviewed the raw dataset to identify any data quality issues and understand what records should be included in the customer behavior study.
-
  **1. Dataset Size**
 - Total transaction records loaded: 1,067,371
 - The dataset is large enough to perform meaningful customer behavior analysis and identify long-term purchasing patterns.
