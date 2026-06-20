@@ -2,7 +2,7 @@
 
  ## Project Overview
 
-This project analyzes customer purchasing behavior using online retail transaction data. The objective was to understand how customers interact with the business by examining purchase frequency, customer spending, purchase volume, recent purchasing activity, and RFM segmentation.
+-- This project analyzes customer purchasing behavior using online retail transaction data. The objective was to understand how customers interact with the business by examining purchase frequency, customer spending, purchase volume, recent purchasing activity, and RFM segmentation.
 
 The project began with data profiling and cleaning to identify records that could affect the analysis, including cancelled transactions, missing customer IDs, and invalid values. After preparing the data, customer-level analyses were performed to identify purchasing patterns, customer value, and differences in customer activity.
 
