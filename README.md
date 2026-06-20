@@ -67,12 +67,12 @@ This project answers the following business questions:
 
  ## How to Run the Project
 
-1 . Download the original Online Retail dataset from Kaggle.
-2 . Load the dataset into Snowflake by running data _loading.sql.
-3 . Execute data _profiling.sql to examine the dataset and identify data quality issues.
-4 . Run data _cleaning.sql to prepare the dataset for analysis.
-5 . Execute customer _behavior _analysis.sql to perform customer behavior analysis and RFM segmentation.
-6 . Review the documentation files for detailed findings, overall project insights, and business recommendations.
+1 .Download the original Online Retail dataset from Kaggle.
+2 .Load the dataset into Snowflake by running data _loading.sql.
+3 .Execute data _profiling.sql to examine the dataset and identify data quality issues.
+4 .Run data _cleaning.sql to prepare the dataset for analysis.
+5 .Execute customer _behavior _analysis.sql to perform customer behavior analysis and RFM segmentation.
+6 .Review the documentation files for detailed findings, overall project insights, and business recommendations.
 
  ## Project Conclusion
 
