@@ -2,7 +2,7 @@
 
 The raw dataset contained cancelled orders, transactions without customer identifiers, and a small number of records with invalid quantity or price values. To ensure that the analysis reflected genuine purchasing behavior, these records were excluded from the final dataset.
 ## The following cleaning rules were applied:
-- Removed transactions with missing Customer\_ID values.
+- Removed transactions with missing Customer_ID values.
 - Excluded cancelled orders identified by invoice numbers starting with 'C'.
 - Removed transactions with negative quantities, as they represented returns rather than completed purchases.
 - Removed transactions with negative prices because they did not represent valid sales transactions.
