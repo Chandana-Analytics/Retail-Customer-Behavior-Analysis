@@ -1,123 +1,67 @@
-###### \# Dataset Understanding
+## Dataset Understanding
+### Project Title :
 
+# Retail Customer Behavior Analysis Using SQL
 
+## Dataset Overview
 
-Project Title :
+- This project uses the Online Retail II dataset, which contains historical transaction records from a UK-based online retail business.
+- The dataset captures customer purchases, product information, quantities ordered, transaction dates, prices, and customer identifiers. It provides enough transactional detail to analyze how customers purchase over time, how frequently they return, and how customer behavior influences overall revenue.
+- The primary focus of this project is customer behavior analysis rather than product performance reporting.
 
-##### **Retail Customer Behavior Analysis Using SQL**
+## Dataset Grain
 
-
-
-###### \# Dataset Overview
-
-* This project uses the Online Retail II dataset, which contains historical transaction records from a UK-based online retail business.
-* The dataset captures customer purchases, product information, quantities ordered, transaction dates, prices, and customer identifiers. It provides enough transactional detail to analyze how customers purchase over time, how frequently they return, and how customer behavior influences overall revenue.
-* The primary focus of this project is customer behavior analysis rather than product performance reporting.
-
-
-
-###### \# Dataset Grain
-
-1. The dataset is recorded at the invoice-line level.
-2. Each row represents a single product within an invoice.
-3. A single invoice may contain multiple products, which means one customer order can be represented by multiple rows.
-
+- The dataset is recorded at the invoice-line level.
+- Each row represents a single product within an invoice.
+- A single invoice may contain multiple products, which means one customer order can be represented by multiple rows.
 Because of this:
+- Total rows do not represent total orders.
+- Invoice numbers represent purchase events.
+- Customer behavior analysis must account for multiple rows belonging to the same order.
 
-* Total rows do not represent total orders.
-* Invoice numbers represent purchase events.
-* Customer behavior analysis must account for multiple rows belonging to the same order.
+## Column Definitions :
 
-
-
-###### **Column Definitions :**
-
-
-
-1. ###### **Invoice**
-
-
-
-**Business Meaning :**
-
+### 1.Invoice
+#### Business Meaning :
 Unique identifier assigned to a transaction or customer order.
-
-**Example**
-
+Example
 536365
-
 How It Will Be Used
+- Count customer orders
+- Measure purchase frequency
+- Identify repeat purchases
+- Investigate cancelled transactions
 
-* Count customer orders
-* Measure purchase frequency
-* Identify repeat purchases
-* Investigate cancelled transactions
-
-
-
-###### **2.StockCode**
-
-###### 
-
-**Business Meaning :**
-
+### 2.StockCode
+#### Business Meaning :
 Unique identifier assigned to a product.
-
-**Example**
-
+Example
 85123A
-
 How It Will Be Used
+- StockCode can support product-level analysis if required. Since the main objective of this project is customer behavior analysis, it will primarily serve as a supporting attribute rather than a core analytical field.
 
-* StockCode can support product-level analysis if required. Since the main objective of this project is customer behavior analysis, it will primarily serve as a supporting attribute rather than a core analytical field.
-
-###### 
-
-###### **3.Description**
-
-
-
-**Business Meaning:**
-
+### 3.Description
+#### Business Meaning:
 Product name or product description.
-
-**Example**
-
+Example
 WHITE HANGING HEART T-LIGHT HOLDER
+How It Will Be Used
+- Provides business context when reviewing products involved in customer transactions.
 
-**How It Will Be Used**
-
-Provides business context when reviewing products involved in customer transactions.
-
-
-
-###### **4.Quantity**
-
-
-
-**Business Meaning:**
-
+### 4.Quantity
+#### Business Meaning:
 Number of units purchased within a transaction.
-
-**Example**
-
+Example
 12
+How It Will Be Used
+- Revenue calculations
+- Customer purchasing behavior analysis
+- Transaction validation
 
-**How It Will Be Used**
-
-* Revenue calculations
-* Customer purchasing behavior analysis
-* Transaction validation
-
-
-
-###### **Note**
-
+### Note
 Negative quantities appear in the dataset and will be investigated during the data profiling stage to determine whether they represent returns or cancelled transactions.
 
-
-
-###### **5.InvoiceDate**
+5.InvoiceDate**
 
 ###### 
 
