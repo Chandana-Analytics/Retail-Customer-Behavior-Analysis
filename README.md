@@ -29,7 +29,6 @@
 The project followed a structured analytical workflow to transform raw transaction data into meaningful customer-level insights:
 
 1 .Data Profiling and Cleaning Examined the dataset to identify missing customer IDs, cancelled transactions, negative quantities, and invalid price records before preparing the data for analysis.
-
 2 .Customer-Level Metric Creation Aggregated transaction-level records into customer-level metrics, including purchase frequency, customer spending, purchase volume, and recency.
 
 3 .Customer Behavior Analysis Analyzed purchase frequency, customer spending, purchase volume, and recent purchasing activity to understand different aspects of customer behavior.
